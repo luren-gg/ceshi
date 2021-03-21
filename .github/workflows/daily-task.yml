@@ -194,4 +194,4 @@ jobs:
 
         appid: ${{secrets.unicom_appid}}
 
-      run: node index.js unicom --user=${user} --password=${password} --appid=${appid} ----TryRun--tasks dailygameflow
+      run: node index.js unicom --user=${user} --password=${password} --appid=${appid} ----TryRun
